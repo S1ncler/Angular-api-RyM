@@ -1,0 +1,13 @@
+<div class="d-flex flex-wrap align-content-around justify-content-around bg-gray">
+  <div class="card mt-3" style="width: 18rem" *ngFor="let personaje of personajes">
+    <img [src]="personaje.image" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Nombre: {{ personaje.name }}</h5>
+      <p class="card-text">Estatus: {{ personaje.status }}</p>
+      <p class="card-text">Expecie: {{ personaje.species }}</p>
+      <p class="card-text">Genero: {{ personaje.gender }}</p>
+      <p class="card-text">Lugar de Orgen: {{ personaje.origin.name }}</p>
+      <p class="card-text">Ubicación actual: {{ personaje.location.name }}</p>
+    </div>
+  </div>
+</div>
