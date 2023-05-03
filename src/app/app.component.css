@@ -1,3 +1,36 @@
 .bg-gray{
-    background-color: rgba(88, 88, 88, 0.589);
+    background-color: rgb(32, 35, 41);
+    
+}
+.bg-gray-card{
+    background-color: rgb(39, 43, 51);
+}
+.titulo{
+    margin: 0px;
+    color: rgb(32, 35, 41);
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    font-size: 5rem;
+}
+.Alive{
+    min-height: 12px;
+    min-width: 12px;
+    max-width: 12px;
+    max-height: 12px;
+    background-color: green;
+}
+.Dead{
+    min-height: 12px;
+    min-width: 12px;
+    max-width: 12px;
+    max-height: 12px;
+    background-color: red;
+}
+.Unknown{
+    min-height: 12px;
+    min-width: 12px;
+    max-width: 12px;
+    max-height: 12px;
+    background-color: gray;
 }
