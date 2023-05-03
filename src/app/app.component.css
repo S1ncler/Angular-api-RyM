@@ -17,20 +17,17 @@
     min-height: 12px;
     min-width: 12px;
     max-width: 12px;
-    max-height: 12px;
     background-color: green;
 }
 .Dead{
     min-height: 12px;
     min-width: 12px;
     max-width: 12px;
-    max-height: 12px;
     background-color: red;
 }
 .Unknown{
     min-height: 12px;
     min-width: 12px;
     max-width: 12px;
-    max-height: 12px;
     background-color: gray;
 }
